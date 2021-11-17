@@ -1,15 +1,15 @@
 import React from 'react'
 
-function itemListContainer() {
-    return (
-         
-  <h1>
-   HOLA
-  </h1>
-  
- 
+<EsteComponente unaPropsComun="tiene una props" /> 
 
-    )
+const EsteComponente = ( {unaPropsComun} ) => { 
+
+	return (
+
+			<h1> hola {unaPropsComun} </h1>
+
+		)
+
 }
 
-export default itemListContainer
+export default EsteComponente;
