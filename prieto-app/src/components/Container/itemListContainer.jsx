@@ -1,15 +1,9 @@
 import React from 'react'
 
-<EsteComponente unaPropsComun="tiene una props" /> 
-
-const EsteComponente = ( {unaPropsComun} ) => { 
-
-	return (
-
-			<h1> hola {unaPropsComun} </h1>
-
-		)
-
+function itemListeContainer(){
+	return(
+		<h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quia repellat dolor ullam reprehenderit, dolorum sint inventore maiores beatae voluptatibus, repudiandae labore reiciendis maxime corrupti doloremque iure neque eum corporis?n</h1>
+	)
 }
 
-export default EsteComponente;
+export default itemListeContainer;
